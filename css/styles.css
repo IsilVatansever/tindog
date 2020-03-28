@@ -39,7 +39,12 @@ body{
   width: 60%;
   transform: rotate(25deg);
 }
-/* Div Features */
+/* Features Section */
+
+#features{
+  padding: 5% 0;
+}
+
 .div-features h3{
   font-weight: bold;
 }
