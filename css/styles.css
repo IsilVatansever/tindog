@@ -2,10 +2,14 @@ body{
   font-family: "Montserrat";
 }
 
+/* Title Section */
 
 #title{
   background-color: #ff4c68;
   color:white;
+  position: relative;
+
+
 }
 #title_header{
   font-family: "Montserrat";
@@ -14,7 +18,7 @@ body{
   line-height: 1.5;
 }
 .container-fluid{
-  padding : 3% 15%;
+  padding : 3% 15% 7%;
 }
 
 /* Navigation bar*/
@@ -38,11 +42,20 @@ body{
 .title-image{
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 /* Features Section */
 
 #features{
-  padding: 5% 0;
+
+  background-color:white;
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+.div-feautures{
+  padding: 4.5%;
 }
 
 .div-features h3{
@@ -68,8 +81,6 @@ body{
   text-align: center;
   background-color: #ef8172;
   font-family: "Montserrat";
-
-
 }
 .carousel-item{
   padding: 7% 15%;
@@ -116,4 +127,55 @@ body{
 }
 .card h2{
   font-size: 2.7rem;
+}
+
+@media (max-width:1020px) {
+  #title{
+    text-align: center;
+  }
+
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+  }
+/* Call to Action Section */
+
+  #cta{
+    background-color:#ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+    font-weight: bold;
+  }
+  #cta h3{
+    color:white;
+    font-size: 3rem;
+    padding: 0 4%;
+    line-height: 1.5;
+  }
+  .cta_btn{
+    margin: 5% 1.5% 0;
+  }
+
+
+/* Footer Section */
+
+#footer{
+  background-color:white;
+  padding: 5% 25% 3%;
+  text-align: center;
+}
+
+#footer p{
+  color: #8f8f8f;
+}
+footer_icons{
+
+}
+
+.foot_icon{
+  margin: 0 5% 3%;
+
 }
